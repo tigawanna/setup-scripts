@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.8
+python3 --version
+
+ln -s -f /usr/local/bin/python3.9 /usr/local/bin/python
+python --version
+
+sudo apt install python3-pip
+pip3 --version
+

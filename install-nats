@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+sudo wget -c  https://github.com/nats-io/nats-server/releases/download/v2.9.7/nats-server-v2.9.7-amd64.deb
+# sudo tar  -xvzf nats-server-download
+# sudo rm -rf nats-server-download
+sudo apt install ./nats-server-v2.9.7-amd64.deb

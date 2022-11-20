@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# downloads pocketbase zip file and unzips it
+sudo wget -c -O pb-dl.zip  https://github.com/pocketbase/pocketbase/releases/download/v0.8.0/pocketbase_0.8.0_linux_amd64.zip
+# sudo tar  -xvzf nats-server-download
+# sudo rm -rf nats-server-download
+# sudo apt install ./nats-server-dwonload
+# sudo apt install unzip pb-zip -d ~/download
+# unzip pb-install
+sudo apt install unzip
+sudo unzip pb-dl.zip -d /download
+sudo rm -rf pb-dl.zip
